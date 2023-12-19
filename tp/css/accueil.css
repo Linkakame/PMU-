@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(166, 164, 164);
+}
+#block1{
+    display: flex;
+    padding: 50px;
+}
+/*  La liste du menu */
+.menu_ul{
+    display: flex;
+    list-style-type: none ;  /* Suppression des puces */
+}
+.menu_il{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#menu{
+    position: fixed;
+    margin-top: 3%;
+    margin-left: 20%;
+}
+#profil{
+    position: relative;
+    left: 45%;
+}
+.img_profil{
+    width: 100px;
+
+}
+.img_inscription{
+    width: 100px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+#promotions{
+    position: relative;
+    margin-left: 40%;
+    display: flex;
+    position: absolute;
+    top: 300px;
+    right: 50%;
+}
+#last_ventes{
+    border: 1px solid black;
+    border-top: none;
+    width: 250px;
+    height: 125px;
+}
+.titre_last_ventes{
+    text-align: center;
+    background-color: blanchedalmond;
+}
+#ligne{
+    margin-top: 0px;
+}
